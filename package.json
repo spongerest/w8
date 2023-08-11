@@ -1,0 +1,25 @@
+{
+  "name": "restu_windrip_weekly_w8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"node back.js\" \"node routes.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.8",
+    "@types/node-fetch": "^2.6.4",
+    "concurrently": "^8.2.0",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@types/body-parser": "^1.19.2",
+    "node-fetch": "^3.3.2",
+    "typescript": "^5.1.6"
+  }
+}
